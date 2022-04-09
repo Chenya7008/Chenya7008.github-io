@@ -1,6 +1,22 @@
 {
   "posts": [
     {
+      "content": "![](https://chenya7008.github.io/post-images/1649494203755.jpg)",
+      "data": {
+        "title": "开摆",
+        "date": "2022-04-09 16:49:34",
+        "tags": [],
+        "published": true,
+        "hideInList": false,
+        "feature": "/post-images/kai-bai.jpg",
+        "isTop": false
+      },
+      "isEmpty": false,
+      "excerpt": "",
+      "abstract": "",
+      "fileName": "kai-bai"
+    },
+    {
       "content": "> 欢迎来到我的小站呀，很高兴遇见你！🤝\n\n## 🏠 关于本站\n\n## 👨‍💻 博主是谁\n\n## ⛹ 兴趣爱好\n\n## 📬 联系我呀\n",
       "data": {
         "title": "关于",
