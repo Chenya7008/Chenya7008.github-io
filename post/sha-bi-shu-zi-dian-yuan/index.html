@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" >
 
-<title>一点调试的记录 | Chenya&#39;s blog</title>
+<title>傻逼数字电源 | Chenya&#39;s blog</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
@@ -18,9 +18,12 @@
 
 
 
-    <meta name="description" content="测试环境
-
-
+    <meta name="description" content="7/9
+烧入程序，发现电压采样不正常，遂提高采样时间，电压采样正常
+电压环运行正常
+尝试加入电流环，电流读数不正常
+7/10
+猜想原因应该是ADC dma导致的通道间数值互相影响
 ..." />
     <meta name="keywords" content="" />
   </head>
@@ -93,16 +96,28 @@
       <div class="main-container">
         <div class="content-container" data-aos="fade-up">
           <div class="post-detail">
-            <h2 class="post-title">一点调试的记录</h2>
-            <div class="post-date">2022-06-14</div>
+            <h2 class="post-title">傻逼数字电源</h2>
+            <div class="post-date">2022-07-11</div>
             
             <div class="post-content" v-pre>
-              <p>测试环境<br>
-<img src="https://chenya7008.github.io/post-images/1655175615459.jpg" alt="" loading="lazy"><br>
-<img src="https://chenya7008.github.io/post-images/1655175620332.JPG" alt="" loading="lazy"></p>
+              <h2 id="79">7/9</h2>
+<p>烧入程序，发现电压采样不正常，遂提高采样时间，电压采样正常<br>
+电压环运行正常<br>
+尝试加入电流环，电流读数不正常</p>
+<h2 id="710">7/10</h2>
+<p>猜想原因应该是ADC dma导致的通道间数值互相影响</p>
 
             </div>
             
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://chenya7008.github.io/post/yi-dian-diao-shi-de-ji-lu/">
+                  <h3 class="post-title">
+                    一点调试的记录
+                  </h3>
+                </a>
+              </div>
             
 
             
